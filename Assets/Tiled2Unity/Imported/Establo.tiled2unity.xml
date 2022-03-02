@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 16/01/2021 6:55:27 p. m.-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="Establo_mesh_0001" material="Barracks" />
+  <Prefab name="Establo" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="2" numTilesHigh="1" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="32" mapHeightInPixels="16" backgroundColor="#808080">
+    <GameObject name="cas" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="Barracks" x="0" y="0" mesh="Establo_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="col" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="0.909091" y="-0.181818" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="1" tmx-object-name="" tmx-object-type="" tmx-object-x="0.909091" tmx-object-y="0.181818" tmx-object-width="30.1818" tmx-object-height="10.3636" tmx-object-rotation="0" />
+        <BoxCollider2D width="30.1818" height="10.3636" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Establo_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0VzdGFibG9fbWVzaF8wMDAxLm9iaicNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSA4KQ0KdiAwIC0xNiAwDQp2IC0xNiAtMTYgMA0KdiAtMTYgMCAwDQp2IDAgMCAwDQp2IC0xNiAtMTYgMA0KdiAtMzIgLTE2IDANCnYgLTMyIDAgMA0KdiAtMTYgMCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNikNCnZ0IDAgMC40DQp2dCAwLjI1IDAuNA0KdnQgMC4yNSAwLjYNCnZ0IDAgMC42DQp2dCAwLjUgMC40DQp2dCAwLjUgMC42DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIEVzdGFibG9fbWVzaF8wMDAxDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKZiA1LzIvMSA2LzUvMSA3LzYvMSA4LzMvMQoNCg==</ImportMesh>
+  <InternalTexture assetPath="Assets/Tiled/Buildings/Wood/Barracks.png" materialName="Barracks" />
+</Tiled2Unity>
